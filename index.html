@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap Practice</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		
+
+		<script src="js/modernizr-3.1.1.min.js"></script>
+
+	</head>
+	<body>
+		<!-- ===============================Responsive Header Area ==================================== !-->
+		<header class="header">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<div class="slider-element">
+							<div class="graph-bg">
+								<img src="images/slide.png" alt="" class="img-responsive">
+							</div>
+							<div class="graph">
+								<img src="images/graph.svg" alt="" class="img-responsive">
+							</div>
+							<div class="text">
+								<h1>Analytics on demand.</h1>
+								<p>Stop installing bloated scripts that all track the exact
+									<br>same things. Install one that does everything.</p>
+								<button class="btn btn-blue btn-lg">Try it now</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- ==================================== Responsive Header Area End Here ========================================= !-->
+
+		<!-- ============================== This Part Only For Responsive Navbar Area ===================================== !-->
+		<nav class="navbar">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><button class="btn btn-white btn-lg">go</button></a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">STARTUP</a></li>
+						<li><a href="#">MINIMAL</a></li>
+						<li><a href="#">BOLD</a></li>
+						<li><a href="#">DOCS</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- =================================== Responsive Navbar Area End Here ========================================== !-->
+
+		<!-- ============================ Responsive Big Callout Area ================================== !-->
+		<section class="big-callout">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="callout-img">
+							<img src="images/monthly.png" alt="" class="img-responsive">
+						</div>
+					</div>
+					<div class="col-md-6 col-md-offset-1">
+						<div class="callout-text">
+							<h5 class="rich">RICH INFORMATION</h5>
+							<h3>Make informed decisions with
+								<br>historical &amp; real time data.</h3>
+							<p class="lead">We combine immediate real time events with rich historical data to help answer the toughest questions about retention, growth, and engagement.</p>
+							<div class="row lead">
+								<div class="col-md-6">
+									<div class="sub-callout-text" id="moode">
+										<h5>Data frequency</h5>
+										<span>We poll for data on a millisecond basis. You can react to new information in seconds rather than days.</span>
+										<span><a href="">Learn more.</a></span>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="sub-callout-text" id="moode">
+										<h5>Reliability &amp; uptime</h5>
+										<span>We process our data across a massively distributed network of reliable servers to ensure 99.99% uptime, always.</span>
+										<span><a href="">Learn more.</a></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ================================= Responsive Big Callout Area End Here ======================================= !-->
+
+		<!-- ============================ Responsive Big Black Area ==================================== !-->
+		<section class="big-black">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="black">
+						<div class="col-md-6">
+							<div class="black-text">
+								<h5 class="rich">EASY DEVELOPMENT</h5>
+								<h3>Natural language queries make mining data easy for anyone.</h3>
+								<p class="lead">Rather than force everyone at your company to learn incredibly difficult terminal commands, we allow anyone to query the data with natural language to return data.</p>
+								<button class="btn btn-white btn-lg">Read our docs</button>
+							</div>
+						</div>
+						<div class="col-md-5 col-md-offset-1 border">
+							<div class="black-code">
+								<code class="code-bg">
+									<span></span> <br>
+									<span>1</span> <span>goAnalytics</span> “who are the latest 3 users?” <br>
+									<span>2</span> <br>
+									<span>3</span> <span class="code-bg-left">{</span><br>
+									<span>4</span>  <span class="code-bg-right">"Dave":</span><span class="code-bg-left">{</span><br>
+									<span>5</span>  <span class="code-bg-right-right">"fullName": "Dave Gamache",</span><br>
+									<span>6</span>  <span class="code-bg-right-right">"twitterHandle": "@dhg",</span><br>
+									<span>7</span>  <span class="code-bg-right">}</span><br>
+									<span>8</span>  <span class="code-bg-right">"Mark":</span><span class="code-bg-left">{</span><br>
+									<span>9</span>	<span class="code-bg-right-right">"fullName": "Mark Otto",</span><br>
+									<span>10</span><span class="code-bg-right-right">"twitterHandle": "@mdo",</span><br>
+									<span>11</span> <span class="code-bg-right">}</span><br>
+									<span>12</span> <span class="code-bg-right">"Jacob":</span><span class="code-bg-left">{</span><br>
+									<span>13</span> <span class="code-bg-right-right">"fullName": "Jacob Thornton",</span><br>
+									<span>14</span> <span class="code-bg-right-right">"twitterHandle": "@fat",</span><br>
+									<span>15</span> <span class="code-bg-right">}</span><br>
+									<span>16</span> <span class="code-bg-left">}</span>
+								</code>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ==================================== Responsive B-g Black End Here =========================================== !-->
+
+		<!-- ============================== Responsive Quote Area ====================================== !-->
+		<section class="quote-content">
+			<div class="quote-bg">
+				<img src="images/girl.png" alt="" class="img-responsive">
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="quote">
+						<div class="col-md-5 col-md-offset-6">
+							<div class="quote-text">
+								<h5 class="rich">HIGH PRAISE</h5>
+								<h3>“Go Analytics is amazing. Decisions that used to take weeks, now only takes minutes and is available to everyone on my team.”</h3>
+								<p class="lead">Cindy Smith, founder of Cool Startup</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- =================================== Responsive Quote Area End Here =========================================== !-->
+
+		<!-- ============================ Responsive blue Strip Area =================================== !-->
+		<section class="blue-strip">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="company-logo">
+							<span><img src="images/tc.svg" alt=""></span>
+							<span><img src="images/tnw.svg" alt=""></span>
+							<span><img src="images/fast-company.svg" alt=""></span>
+							<span><img src="images/mashable.svg" alt=""></span>
+							<span><img src="images/re-code.svg" alt=""></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ================================= Responsive Blue Strip Area End Here ======================================== !-->
+
+		<!-- =============================== Responsive Machine Area ======================================= !-->
+		<section class="machine-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="machine">
+							<div class="machine-text">
+								<h5 class="rich">INSIDE THE MACHINE</h5>
+								<h3>It’s not hard to see how we make your<br>life easier every day.</h3>
+							</div>
+							<div class="machine-portfolio">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="sub-portfolio">
+											<img src="images/support.svg" alt="" class="img-responsive">
+											<p class="lead"><span class="bold">24/7 support.</span> We’re always here for you no matter what time of day.</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="sub-portfolio">
+											<img src="images/card.svg" alt="" class="img-responsive">
+											<p class="lead"><span class="bold">E-commerce.</span> We automatically handle all sales analytics..</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="sub-portfolio">
+											<img src="images/clock.svg" alt="" class="img-responsive">
+											<p class="lead"><span class="bold">Turnaround.</span> Our data analysis is distributed, so it processes in seconds.</p>
+										</div>
+									</div>
+								</div>
+								<div class="row seperate">
+									<div class="col-md-4">
+										<div class="sub-portfolio">
+											<img src="images/calculator.svg" alt="" class="img-responsive">
+											<p class="lead"><span class="bold">Rich calculations.</span> Limitless ways to splice and dice your data.</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="sub-portfolio">
+											<img src="images/mobile.svg" alt="" class="img-responsive">
+											<p class="lead"><span class="bold">Mobile apps.</span> iOS and Android apps available for monitoring.</p>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="sub-portfolio">
+											<img src="images/check.svg" alt="" class="img-responsive">
+											<p class="lead"><span class="bold">Secure connections.</span> Every single request is routed through HTTPS.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- =================================== Responsive Machine Area End Here ========================================= !-->
+
+		<!-- ============================  Responsive Business Link Area ==================================== !-->
+		<section class="business-link">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="sub-business">
+							<h5 class="rich">PERSONAL</h5>
+							<img src="images/nine.svg" alt="" class="img-responsive">
+							<p class="lead">Plenty of processing power for any personal <br>projects, big or small.</p>
+							<div class="table lead">
+								<p><span>10k</span> monthly requests</p>
+								<p><span>9am-5pm</span> technical supprt</p>
+								<p><span>Public</span> API access</p>
+							</div>
+							<button class="btn btn-blue btn-lg btn-block">Start a personal account</button>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="sub-business">
+							<h5 class="rich">BUSINESS</h5>
+							<img src="images/four-nine.svg" alt="" class="img-responsive">
+							<p class="lead">The perfect sized plan for small businesses to <br>get started.</p>
+							<div class="table lead">
+								<p><span>100k</span> monthly requests</p>
+								<p><span>24/7</span> technical supprt</p>
+								<p><span>Public</span> API access</p>
+							</div>
+							<button class="btn btn-blue btn-lg btn-block">Start a bussiness account</button>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="sub-business">
+							<h5 class="rich">CORPORATE</h5>
+							<img src="images/nine.svg" alt="" class="img-responsive">
+							<p class="lead">An unlimited plan that will scale infinitely to any <br>size project.</p>
+							<div class="table lead">
+								<p><span>Unlimited</span> monthly requests</p>
+								<p><span>24/7</span> technical supprt</p>
+								<p><span>Public &amp; Private</span> API access</p>
+							</div>
+							<button class="btn btn-blue btn-lg btn-block btn-blue-mag">Start a corporate account</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ================================ Responsive Business Link Area End Here ====================================== !-->
+
+		<!-- ================================  Part Only For Responsive Footer Area ======================================= !-->
+		<footer class="footer-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="about">
+							<h4>ABOUT</h4>
+							<p>We’ve been working on Go Analytics for the better part of a decade and are super proud of what we’ve created. If you’d like to learn more, or are interested in a job, contact us anytime at <span>themes@getbootstrap.com.</span></p>
+						</div>
+					</div>
+					<div class="col-md-2 col-md-offset-1">
+						<div class="product">
+							<h4>PRODUCT</h4>
+							<p>Features</p>
+							<p>Examples</p>
+							<p>Tour</p>
+							<p>Gallery</p>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="apis">
+							<h4>APIS</h4>
+							<p>Rich data</p>
+							<p>Simple data</p>
+							<p>Real time</p>
+							<p>Social</p>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="legal">
+							<h4>LEGAL</h4>
+							<p>Terms</p>
+							<p>Legal</p>
+							<p>Privacy</p>
+							<p>License</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- =================================== Responsive Footer Area End Here ========================================== !-->
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</body>
+</html>

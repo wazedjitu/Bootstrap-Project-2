@@ -1,0 +1,654 @@
+
+
+.navbar {
+	border-radius: 0px;
+	padding: 30px 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+
+.navbar .navbar-brand {
+	margin-top: -14px;
+}
+
+.navbar-brand .btn-lg {
+	padding: 11px 13px;
+}
+
+.navbar-brand .btn-white {
+	background: #fff;
+	border-radius: 4px;
+	color: #28669F;
+	font-family: Roboto, sans-serif;
+	font-weight: bold;
+	transition: 1s;
+}
+
+.navbar-brand .btn-white:hover {
+	background: gray;
+	border: 1px solid blue;
+	box-shadow: 0px 0px 5px;
+	color: white;
+}
+
+.navbar li {
+	margin-left: 20px;
+}
+
+.navbar li a {
+	color: white;
+	font-weight: bold;
+	letter-spacing: .05em;
+	padding: 15px 0px;
+}
+
+.navbar li a:hover {
+	background: none;
+	color: #8F8A8E;
+	text-decoration: none;
+}
+
+.navbar .navbar-toggle {
+	margin-right: 15px;
+	margin-bottom: 15px;
+	background-color: #2D6F9C;
+	border: 1px solid white;
+}
+	
+.navbar .navbar-toggle .icon-bar {
+	background: white;
+}
+
+/* ================ Navbar Brand In The Center End Here ================= */
+
+/* ======================= Slide With Graph Area ======================== */
+
+.graph-bg img {
+	height: 100vh;
+	width: 100%;
+}
+
+.graph img {
+	height: 100vh;
+	position: absolute;
+	top: 3%;
+	width: 100%;
+}
+
+.text {
+	left: 7%;
+	position: absolute;
+	top: 27%;
+}
+
+.text h1 {
+	color: white;
+	font-size: 2.25rem;
+	font-weight: 500;
+	line-height: 1.2;
+	margin-bottom: 0.5rem;
+}
+
+.text p {
+	color: #B3CADB;
+	font-size: 22px;
+	font-weight: 300;
+	letter-spacing: .5px;
+	margin-bottom: 1.3rem;
+}
+
+.text .btn {
+	padding: 10px 60px;
+}
+
+.text .btn-blue {
+	background-color: #279AFF;
+	border-color: #279AFF;
+	border-radius: 4px;
+	color: white;
+}
+
+.text .btn-blue:hover {
+	background-color: #007cf1;
+	border-color: #007cf1;
+	transition: .5s;
+}
+
+/* ================== Slide With Graph Area End Here ==================== */
+
+/* ========================= Big Callot Area ============================ */
+
+.big-callout {
+	background: white;
+	margin-top: -40px;
+	padding-top: 100px;
+	position: relative;
+}
+
+.callout-img img {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.callout-text {
+	margin-top: 37%;
+	text-align: justify;
+}
+
+.callout-text .rich {
+	color: #B1BCC4;
+	font-size: 13px;
+	letter-spacing: 3px;
+	margin-bottom: -10px;
+}
+
+.callout-text h3 {
+	font-family: sans-serif;
+	font-size: 28px;
+	letter-spacing: .5px;
+}
+
+.callout-text .lead {
+	line-height: 1;
+}
+
+.callout-text p.lead {
+	font-size: 19px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.sub-callout-text h5 {
+	font-size: 17px;
+	margin-bottom: 5px;
+}
+
+.sub-callout-text span {
+	font-size: 17px;
+}
+
+.sub-callout-text span a {
+	color: #279AFF;
+}
+
+/* ====================== Big Callot Area End Here ====================== */
+
+/* =========================== Big Black Area =========================== */
+
+.big-black {
+	background: #262F36;
+	clear: both;
+}
+
+.black-text {
+	padding: 210px 0px 220px 80px;
+	text-align: justify;
+}
+
+.black-text .rich {
+	color: #B1BCC4;
+	font-size: 13px;
+	letter-spacing: 3px;
+	margin-bottom: -15px;
+}
+
+.black-text h3 {
+	color: white;
+	font-family: sans-serif;
+	font-size: 29px;
+	letter-spacing: .5px;
+	line-height: 35px;
+}
+
+.black-text p.lead {
+	color: #B1B4B6;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.black-text .btn {
+	padding: 10px 65px;
+}
+
+.black-text .btn-white {
+	background-color: white;
+	border-color: white;
+	border-radius: 4px;
+	transition: 1s;
+}
+
+.black-text .btn-white:hover {
+	background: slategray;
+	border-color: slategray;
+	color: white;
+}
+
+.black .border {
+	border-radius: 5px 0px 0px 5px;
+	border: 1px solid #393F47;
+	margin-top: 7.5%;
+}
+
+.black-code {
+	padding: 25px 0px 50px 50px;
+}
+
+.code-bg {
+	background: transparent;
+	color: #6EA4CF;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.code-bg span {
+	color: #8496A5;
+}
+
+.code-bg-left {
+	margin-left: 10px;
+}
+
+span.code-bg-left {
+	color: #6EA4CF;
+}
+
+.code-bg-right {
+	margin-left: 30px;
+}
+
+span.code-bg-right {
+	color: #6EA4CF;
+}
+
+span.code-bg-right-right {
+	color: #6EA4CF;
+	margin-left: 45px;
+}
+
+/* ====================== Big Black Area End Here ======================= */
+
+/* ============================= Quote Area ============================= */
+
+.quote-content {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+
+.quote-bg img {
+	width: 100%;
+}
+
+.quote {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 25%;
+}
+
+.quote-text {
+	padding: 0px;
+}
+
+.quote-text .rich {
+	color: rgba(255, 255, 255, .7);
+	letter-spacing: 2px;
+	margin-bottom: -10px;
+}
+
+.quote-text h3 {
+	color: aliceblue;
+	font-size: 28px;
+	letter-spacing: 2px;
+	line-height: 35px;
+	margin-bottom: 1.5rem;
+}
+
+.quote-text p.lead {
+	color: rgba(255, 255, 255, .7);
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+/* ======================== Quote Area End Here ========================= */
+
+/* ========================== Blue Strip Area =========================== */
+
+.blue-strip {
+	background: #277AFF;
+}
+
+.company-logo {
+	padding: 45px 0px;
+	text-align: center;
+}
+
+.company-logo span {
+	padding: 0px 10px;
+}
+
+/* ===================== Blue Strip Area End Here ======================= */
+
+/* =========================== Machine Area ============================= */
+
+.machine {
+	text-align: center;
+}
+
+.machine-text {
+	padding: 90px 0px 50px 0px;
+}
+
+.machine-text .rich {
+	color: #BEC8CE;
+	font-size: 13px;
+	letter-spacing: 3px;
+	margin-bottom: -15px;
+}
+
+.machine-text h3 {
+	font-size: 28px;
+}
+
+.machine-portfolio .seperate {
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.sub-portfolio img {
+	margin: 0 auto;
+}
+
+.sub-portfolio .lead {
+	font-size: 15px;
+}
+
+.sub-portfolio span {
+	color: #6c6f73;
+	font-weight: bold;
+}
+
+/* ===================== Machine Area End Here ========================== */
+
+/* ======================= Business Link Area =========================== */
+
+.business-link {
+	background: #F4F5F6;
+	padding: 100px 0px;
+}
+
+.sub-business {
+	text-align: center;
+}
+
+.sub-business .rich {
+	color: #BEC8CE;
+	font-size: 13px;
+	letter-spacing: 3px;
+	margin-bottom: 25px;
+}
+
+.sub-business img {
+	margin: 0px auto;
+	padding-bottom: 15px;
+}
+
+.sub-business p.lead {
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+
+.sub-business div.lead {
+	border-top: 1px solid #BEC8CE;
+	font-size: 15px;
+	text-align: left;
+}
+
+.sub-business .lead p {
+	border-bottom: 1px solid #BEC8CE;
+	margin: 0px;
+	padding: 20px 0px;
+}
+
+.sub-business span {
+	color: #6c6f73;
+	font-weight: bold;
+	padding: 14px 0px;
+}
+
+.sub-business .btn-blue {
+	background-color: #279AFF;
+	border-color: #279AFF;
+	border-radius: 4px;
+	color: white;
+}
+
+.sub-business .btn-blue:hover {
+	background-color: #007cf1;
+	border-color: #007cf1;
+	transition: .5s;
+}
+
+/* ===================Business Link Area End Here ======================= */
+
+/* ============================= Footer Area ============================ */
+
+footer {
+	background: #262F36;
+	color: rgba(255, 255, 255, .7);
+	padding: 100px 0px 160px 0px;
+}
+
+footer h4 {
+	color: white;
+	font-size: 13px;
+	letter-spacing: 3px;
+}
+
+footer .about p {
+	line-height: 25px;
+}
+
+footer span {
+	color: white;
+}
+
+/* ======================= Footer Area End Here ========================= */
+
+
+/* ========================= Start Media Queries ======================== */
+
+@media (max-width: 425px) {
+	.navbar li {
+		border: 1px solid black;
+		width: 360px;
+		border-radius: 5px;
+		margin: 1px 0px 1px 10px;
+	}
+	.navbar li a {
+		padding: 15px;
+		background: #265A86;
+		border-radius: 5px;
+		margin: 5px;
+	}
+	.navbar li a:hover {
+		color: white;
+		background: black;
+	}
+	.graph img {
+		top: 26%;
+	}
+	.text {
+		left: -.5%;
+		top: 27%;
+		text-align: center;
+		padding: 0px 10px; 
+	}
+	.text h1 {
+		font-size: 25px;
+	}
+	.text p {
+		font-size: 20px;
+	}
+	.text .btn {
+		margin-top: 10px;
+		padding: 10px 40px;
+	}
+	.callout-img img {
+		margin-top: -50px;
+	}
+	.callout-text {
+		margin-top: 12%;
+		text-align: center;
+	}
+	.callout-text .rich {
+		font-size: 12px;
+	}
+	.callout-text h3 {
+		font-size: 25px
+	}
+	.callout-text p.lead {
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.callout-text #moode {
+		margin-bottom: 23px
+	}
+	.sub-callout-text span {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.black {
+		padding-bottom: 30px;
+	}
+	.black-text {
+		padding: 30px 10px;
+		text-align: center
+	}
+	.black-text .rich {
+		font-size: 12px;
+	}
+	.black-text h3 {
+		font-size: 23px
+	}
+	.black-text p.lead {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.black-text .btn-white {
+		padding: 10px 35px
+	}
+	.black .border {
+		border-radius: 5px;
+		border: 0px;
+		margin-top: 0%;
+	}
+	.black-code {
+		border-radius: 7px;
+		padding: 0px 5px 10px 10px;
+		border: 1px solid white;
+	}
+	.code-bg {
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.quote {
+		width: 300px;
+		left: 13%;
+		top: 13%;
+		font-family: serif;
+		text-align: center;
+	}
+	.quote-text .rich {
+		font-size: 12px;
+	}
+	.quote-text h3 {
+		font-size: 15px;
+		line-height: 15px;
+		margin-bottom: .5rem;
+		letter-spacing: .5px;
+	}
+	.quote-text p.lead {
+		font-size: 12px;
+	}
+	.company-logo {
+		padding: 20px 0px;
+	}
+	.company-logo span img{
+		padding: 10px 0px;
+		height: 45px;
+	}
+	.machine-text {
+		padding: 30px 0px 10px 0px;
+	}
+	.machine-text .rich {
+		font-size: 12px;
+	}
+	.machine-text h3 {
+		font-size: 20px;
+	}
+	.machine-portfolio .seperate {
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	.business-link {
+		padding: 20px 0px 0px 0px;
+	}
+	.sub-business div.lead {
+		text-align: center
+	}
+	.sub-business .btn-blue {
+		margin-bottom: 40px;
+	}
+	footer {
+		padding: 30px 0px 58px 0px;
+		text-align: center;
+	}
+	footer .col-md-5 {
+		border-bottom: 2px solid white;
+	}
+	footer .about p {
+		margin-bottom: 20px
+	}
+	footer .col-md-2 {
+		border-bottom: 2px solid white;
+		overflow: hidden;
+	}
+	footer .col-md-2:hover {
+		box-shadow: 0px 0px 10px red;	
+	}
+	footer .product h4 {
+		margin-bottom: 20px;
+	}
+	footer .product {
+		margin-bottom: 20px;
+		line-height: 15px;
+		margin-top: 20px;
+	}
+	footer .apis h4 {
+		margin-bottom: 20px;
+	}
+	footer .apis {
+		margin-bottom: 20px;
+		line-height: 15px;
+		margin-top: 20px;
+	}
+	footer .legal h4 {
+		margin-bottom: 20px;
+	}
+	footer .legal {
+		margin-bottom: 20px;
+		line-height: 15px;
+		margin-top: 20px;
+	}
+	.navbar-default {
+		text-align: center;
+	}
+}
+
+/* ======================= Media Queries End Here ======================= */
+
+/* ======================== CSS Styling End Here ============================ */
